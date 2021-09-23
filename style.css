@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.txt1{
+    color: azure;
+    padding: 8%;
+    text-transform: capitalize;
+
+}
+
+.ima{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(231, 94, 31, 0.39),rgba(19, 65, 17, 0.349)),url(../STI/at.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.ima1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(231, 94, 31, 0.39),rgba(50, 122, 48, 0.226)),url(../STI/background.jpg);
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+
+nav{
+    display: flex;
+    padding: 2.5% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(95, 158, 160, 0.459);
+
+}
+
+/* logo size */
+nav img{
+    width: 145px;
+}
+/* text positons */
+.nav-link{
+    flex: 1;
+    text-align: right;
+
+}
+/* text style position" */
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+/* anchor text style color */
+.nav-link ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* text hover style */
+.nav-link ul li::after{
+    content:'';
+    width: 0%;
+    height: 5px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+/* line size under the text */
+.nav-link ul li:hover::after{
+    width: 100%;
+}
+
+#time{
+    color: blanchedalmond;
+    font-style: italic;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+#time::after{
+    content:'';
+    width: 0%;
+    height: 5px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+#time:hover::after{
+    width: 100%;
+}
