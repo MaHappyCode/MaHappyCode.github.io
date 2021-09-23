@@ -13,7 +13,7 @@
 .ima{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(231, 94, 31, 0.39),rgba(19, 65, 17, 0.349)),url(../STI/at.jpg);
+    background-image: linear-gradient(rgba(75, 43, 28, 0.274),rgba(86, 116, 136, 0.233)),url(https://pixabay.com/get/gc520de0a74ab4e3bd61848baad8576810947200a2e1b3d59c313eb5b3ed02a950e061d73791767fc476275394e2c9da2.jpg);
     background-size: cover;
     background-position: center;
 
@@ -22,7 +22,7 @@
 .ima1{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(231, 94, 31, 0.39),rgba(50, 122, 48, 0.226)),url(../STI/background.jpg);
+    background-image: linear-gradient(rgba(53, 69, 104, 0.192),rgba(54, 75, 54, 0.226)),url(https://pixabay.com/get/g19387c759828c6c67611ea4a97918de5b6f691b20a728afbc7dcb3b98e31ac2f0799ebca4c3a513fd44196d1b81f7996.jpg);
     background-size: cover;
     background-position: center; 
     
